@@ -1,0 +1,176 @@
+*{
+    box-sizing: border-box;
+    
+    
+}
+
+.objet img{
+    width: 120px;
+    height: 120px;
+    border: 3px solid grey;
+    
+   
+}    
+    
+
+body{
+    font-family: sans-serif;
+    margin: 0 auto;
+    background-image: url(https://i.pinimg.com/736x/0b/d6/0c/0bd60c1fe412e05d2b61d27ba9b92233.jpg);
+    
+}
+header, section{
+    width: 960px;
+    margin: 0 auto;
+    
+}    
+header{
+    display: flexbox;
+    background-color: #364552;
+    height: 120px;
+    
+}
+
+h1{
+    text-align: center;
+    color: whitesmoke;
+    margin-top: -90px;
+    font-size: 50px;
+    margin-left: 60px;
+    cursor: default;
+}
+
+aside{
+    width: 50%;
+}
+h2{
+    background-color: #364552;
+    color: whitesmoke;
+    padding: 5px;
+    cursor: default;
+}
+.info{
+    text-align: right;
+    padding: 5px;
+}
+
+section{
+    display: flex;
+}
+article{
+    width: 60%;
+    
+}
+div{
+    width: 960px;
+    margin: 0 auto;
+    
+}
+.item p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    cursor: default;
+}
+
+footer{
+    width: 960px;
+    margin: 0 auto;
+    
+}  
+
+
+h3{
+    background-color: #364552;
+    text-align: center;
+    color: whitesmoke;
+    padding: 5px;
+    width: 960px;
+    margin: 0 auto;
+    font-size: 20px;
+    cursor: default;
+} 
+.nav__ul{
+    color: blue;
+    padding-left: 10px;
+    display: flex;
+    list-style: none;
+} 
+a{
+    text-decoration: none;
+    padding: 5px;
+    color: black;
+}
+a:visited{
+    color: grey;
+}
+a{
+    transition: color 0.3s ease; 
+    
+}
+a:hover{
+    color: cornflowerblue;
+}
+
+.nav__li i{
+    text-align: left;
+    margin-left: 5px; 
+    
+}
+
+
+
+section article, section aside{
+    transition: box-shadow 0.3s ease; 
+    background-color: aliceblue;
+    margin: 1rem 0; 
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;  }
+
+section article:hover{ 
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3); }
+section aside:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+
+}
+
+.boton{
+    width: 960px;
+    margin: 0 auto;
+    background-color: #364552;
+    text-align: center;
+    
+}
+#contacto{
+        font-size:18px;
+        font-family: sans-serif;
+        font-weight:bold;
+        color: whitesmoke;
+        background:#638cb5;
+        border:0px solid #638cb5;
+        width:150px;
+        height:30px;
+        cursor: pointer;
+        
+        transition: color 0.5s ease;
+}
+#contacto:hover{
+    background: #427cb5;
+}
+
+.ing, .office, .java{
+    display: inline;
+}
+progress{
+    padding: 10px;
+}
+.java_dos{
+    margin-left: 100px;
+    
+}
+.office_dos{
+    margin-left: 28px;
+}
+.ing_dos{
+    margin-left: 17px;
+}
